@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+.toDoList {
+  margin-top: 10vh;
+  margin-inline: 20vw;
+  display: flex;
+  height: 80vh;
+}
+
+.form {
+  text-align: center;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.toDo {
+  margin-inline: 2vw;
+  margin-block: 2vh;
+  flex-basis: 50%;
+  border-radius: 20px;
+  background-color: rgba(74, 163, 134, 0.621);
+}
+
+.done {
+  margin-inline: 2vw;
+  margin-block: 2vh;
+  flex-basis: 50%;
+  border-radius: 20px;
+  background-color: rgba(74, 163, 134, 0.621);
+}
+
+.doneList {
+  border-top: 3px solid black;
+}
+
+.toDoList > .toDo > div > div > ul > li {
+  list-style: none;
+}
