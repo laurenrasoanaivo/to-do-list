@@ -1,0 +1,41 @@
+.App {
+  margin-top: 10vh;
+  margin-inline: 20vw;
+  display: flex;
+  height: 80vh;
+  color: rgb(68, 67, 67);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  border-top: 3px solid rgb(68, 67, 67);
+  border-bottom: 3px solid rgb(68, 67, 67);
+}
+
+.toDo {
+  margin-inline: 2vw;
+  margin-block: 2vh;
+  flex-basis: 50%;
+  border-radius: 20px;
+  background-color: thistle;
+}
+
+.done {
+  margin-inline: 2vw;
+  margin-block: 2vh;
+  flex-basis: 50%;
+  border-radius: 20px;
+  background-color: thistle;
+}
+
+.doneList {
+  border-top: 3px solid rgb(68, 67, 67);
+}
+
+.toDo > div > div > ul > li {
+  list-style: none;
+}
